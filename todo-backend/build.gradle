@@ -25,6 +25,12 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+test {
+    useJUnitPlatform()
+    // DB接続などを含む統合テストを無視するために以下を追加（Spring Boot特有の起動テストを除外）
+    exclude '**/*ApplicationTests.class'
+}
+
 tasks.named('bootRun') {
     jvmArgs = ['-Dfile.encoding=UTF-8']
 }
