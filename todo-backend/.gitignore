@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# React build成果物（static配下）
+todo-backend/src/main/resources/static/
+# Reactのビルド成果物は、Spring Bootのstatic配下に配置されるため、除外する
+# ただし、src/main/resources/static/は除外しない
