@@ -1,0 +1,43 @@
+# =====================
+# 共通（全体に適用）
+# =====================
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# =====================
+# IDE / エディタ関連
+# =====================
+.idea/
+.vscode/
+*.iml
+
+# =====================
+# Java / Spring Boot 用（todo-backend）
+# =====================
+todo-backend/build/
+todo-backend/.gradle/
+todo-backend/.classpath
+todo-backend/.project
+todo-backend/.settings/
+todo-backend/out/
+todo-backend/*.jar
+todo-backend/*.war
+
+# =====================
+# Node.js / React 用（todo-frontend）
+# =====================
+todo-frontend/node_modules/
+todo-frontend/.next/
+todo-frontend/dist/
+todo-frontend/build/
+todo-frontend/npm-debug.log*
+todo-frontend/yarn-debug.log*
+todo-frontend/yarn-error.log*
