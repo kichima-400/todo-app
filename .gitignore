@@ -16,7 +16,9 @@ Thumbs.db
 # IDE / エディタ関連
 # =====================
 .idea/
+# .vscodeフォルダは無視するが、launch.json だけ例外
 .vscode/
+!.vscode/launch.json
 *.iml
 
 # =====================
