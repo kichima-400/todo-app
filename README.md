@@ -107,22 +107,23 @@ docker run -p 8080:8080 --env-file .env todo-app-full
 
 ---
 
-## 📚 開発中の補助コマンド
+## 📚 Dockerを使用せずにローカル起動する方法
 
-- **バックエンド単体起動（ホットリロード）**
+- その１
+  ～/todo-app/todo-backend/src/main/resources
+  の
+  spring.datasource.url の設定を変更する。
 
-  ```bash
-  cd todo-backend
+- その２
+  ～/todo-app/todo-frontend/dist/
+  のファイル一式を
+  ～/todo-app/todo-backend/src/main/resources/static/
+  にコピーする。
+
+- その３
+  ～/todo-app/todo-backend
+  で
   ./gradlew bootRun
-  ```
-
-- **フロントエンド単体起動 (Vite 開発サーバ)**
-
-  ```bash
-  cd todo-frontend
-  npm run dev
-  ```
-
 ---
 
 ## 🖋️ 変更履歴
