@@ -1,0 +1,14 @@
+# ============================
+# React（todo-frontend）
+todo-frontend/node_modules
+todo-frontend/dist
+todo-frontend/.cache
+
+# Spring Boot（todo-backend）
+todo-backend/build
+todo-backend/.gradle
+
+# 環境設定・IDEファイル
+.vscode
+.env
+.DS_Store
