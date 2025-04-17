@@ -72,7 +72,7 @@ function App() {
 
   return (
     <div style={{ padding: '1rem' }}>
-      <h1>📋 Todo List</h1>
+      <h1>📋 memo list</h1>
 
       {/* 入力フォーム */}
       <div style={{ marginBottom: '1rem' }}>

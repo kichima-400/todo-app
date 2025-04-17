@@ -54,10 +54,9 @@ Docker Compose を使えば、DB とアプリを同時に立ち上げられま�
 
 ```bash
 # プロジェクトルートで
-docker-compose up -d --build
+docker-compose up --build
 ```
 
-- `-d`：バックグラウンド実行  
 - `--build`：イメージを再ビルド
 
 サービス起動後、ブラウザで以下にアクセスします。
