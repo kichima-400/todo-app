@@ -113,6 +113,7 @@ docker run -p 8080:8080 --env-file .env todo-app-full
   ～/todo-app/todo-backend/src/main/resources/application.properties
   の
   spring.datasource.url の設定を変更する。
+  spring.datasource.password の箇所に直接DBパスワードを書く。（こうしないと動かない原因は調査中）
 
 - その２
   ～/todo-app/todo-frontend/dist/
