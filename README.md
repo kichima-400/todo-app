@@ -110,7 +110,7 @@ docker run -p 8080:8080 --env-file .env todo-app-full
 ## 📚 Dockerを使用せずにローカル起動する方法
 
 - その１
-  ～/todo-app/todo-backend/src/main/resources
+  ～/todo-app/todo-backend/src/main/resources/application.properties
   の
   spring.datasource.url の設定を変更する。
 
