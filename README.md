@@ -33,8 +33,8 @@ todo-app/                ← リポジトリルート
 - （ローカル開発時のみ）Java 21、Gradle、Node.js が使える環境
 - PostgreSQL がインストール済み
 - （todoappデータベースを事前に構築すること）
---   psql -U postgres
---   CREATE DATABASE todoapp;
+-   ※　psql -U postgres
+-   ※　CREATE DATABASE todoapp;
 - PostgreSQL のパスワードを `.env` に設定しておくこと
 
 ---
